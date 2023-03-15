@@ -1,1 +1,5 @@
-console.log('hi there');
+"use strict";
+console.log('Hello TypeScript');
+const logSomething = () => {
+    console.log('something');
+};

@@ -1,1 +1,4 @@
-console.log('hi there');
+console.log('Hello TypeScript');
+const logSomething = () => {
+  console.log('something');
+}
