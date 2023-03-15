@@ -14,3 +14,10 @@
 - In your terminal run the command `tsc` and confirm that index.js is now present in your ./build directory
 ### Initialize a new npm project by running the command `npm init -y`. This will generate a package.json file in the root of your project directory. 
 - Install the nodemon and concurrently npm packages by typing into you terminal `npm install nodemon concurrently`
+#### Inside of your package.json file add the following under your `scripts`
+- "start:build" :"tsc -w"
+- "start:run":"nodemon build/index.js",
+- "start":"concurrently npm:start:*"
+#### This will allow you to run one command instead of two terminal windows
+    
+    
