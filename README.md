@@ -12,5 +12,5 @@
 - Update the outDir value to ` './build' `
 - Confirm this worked by adding a ```javascript console.log('Hello TypeScript')``` to your index.ts file in the ./src directory
 - In your terminal run the command `tsc` and confirm that index.js is now present in your ./build directory
-##### Once confirmed note that we will be using the command `tsc -w` moving forward. This command allows the compiler to watch for any changes that may happen to the index.ts file in the root directory and apply changes as they happen.
-- Open a second terminal window in the same directory and run the command `node build/index.js
+### Initialize a new npm project by running the command `npm init -y`. This will generate a package.json file in the root of your project directory. 
+- Install the nodemon and concurrently npm packages by typing into you terminal `npm install nodemon concurrently`
