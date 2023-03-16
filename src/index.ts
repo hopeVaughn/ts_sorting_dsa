@@ -1,4 +1,5 @@
 class Sorter {
+  // this current iteration does not take into consideration characters.
   constructor (public collection: number[]) {
   }
   sort(): void {
