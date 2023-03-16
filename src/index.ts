@@ -1,7 +1,7 @@
 class Sorter {
   // this current iteration does not take into consideration characters or a linked list.
-  constructor (public collection: number[] | string) {
-  }
+  constructor (public collection: number[] | string) { }
+
   sort(): void {
     const { length } = this.collection;
 
