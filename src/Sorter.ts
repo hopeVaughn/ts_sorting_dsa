@@ -1,4 +1,4 @@
-// this interface is like having directions for Sorter on what can be passed into it based on the blue print that this below interface provides.
+// This interface is like having directions for Sorter on what can be passed into it based on the blue print that this below interface provides.
 interface Sortable {
   length: number;
   compare(leftIndex: number, rightIndex: number): boolean;
