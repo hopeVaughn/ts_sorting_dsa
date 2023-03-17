@@ -1,9 +1,4 @@
-// This interface is like having directions for Sorter on what can be passed into it based on the blue print that this below interface provides.
-interface Sortable {
-  length: number;
-  compare(leftIndex: number, rightIndex: number): boolean;
-  swap(leftIndex: number, rightIndex: number): void;
-}
+
 export abstract class Sorter {
   abstract compare(leftIndex: number, rightIndex: number): boolean
   abstract swap(leftIndex: number, rightIndex: number): void
