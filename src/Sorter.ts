@@ -1,8 +1,11 @@
-import { NumbersCollection } from "./NumbersCollection";
+// this interface is like having directions for Sorter on what can be passed into it based on the blue print that this below interface provides.
+interface Sortable {
+  length: number;
+  compare(leftIndex: number, rightIndex: number): boolean;
+  swap(leftIndex: number, rightIndex: number): void;
+}
 export class Sorter {
-  // this current iteration does not take into consideration characters or a linked list.
-  constructor (public collection: NumbersCollection) { }
-
+  constructor (public collection: Sortable) { }
   sort(): void {
     const { length } = this.collection;
     for (let i = 0; i < length; i++) {

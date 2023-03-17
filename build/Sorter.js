@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Sorter = void 0;
 class Sorter {
-    // this current iteration does not take into consideration characters or a linked list.
     constructor(collection) {
         this.collection = collection;
     }
